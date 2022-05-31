@@ -12,9 +12,13 @@ namespace ETradingAPI.models
         [Key]
         public int BusinessOwnerId { get; set; }
         [Required]
+        public string UserName { get; set; }
+        [Required]
         public string BusinessOwnerName { get; set; }
         [Required]
         public string BusinessOwnerType { get; set; }
+        [Required]
+        public string BusinessOwnerEmail { get; set; }
 
     }
 }

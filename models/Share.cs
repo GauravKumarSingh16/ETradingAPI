@@ -12,7 +12,7 @@ namespace ETradingAPI.models
         public int ShareId { get; set; }
         public string ShareName { get; set; }
         [Required]
-        public string ShareType { get; set; }
+        public double ShareQuantity { get; set; }
         [Required]
         public double SharePrice { get; set; }
     }
